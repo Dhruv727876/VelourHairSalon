@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VELOUR — Luxury Salon & Spa
 
-## Getting Started
+Experience the pinnacle of beauty and wellness. **VELOUR** is a premier luxury salon and spa web application designed with high-end aesthetics, smooth interactions, and a premium user experience.
 
-First, run the development server:
+![VELOUR Banner](images/hero_salon.webp)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
+
+- **Modern Tech Stack**: Built with [Next.js 15](https://nextjs.org/), [React 19](https://react.dev/), and [Tailwind CSS 4](https://tailwindcss.com/).
+- **Immersive Animations**: Powered by [Framer Motion](https://www.framer.com/motion/) for reveal effects and smooth transitions.
+- **Fluid Experience**: Integrated [Lenis](https://lenis.darkroom.engineering/) for high-performance scroll physics.
+- **Interactive Elements**: Custom magnetic buttons, interactive cursors, and responsive parallax hero sections.
+- **Service Modules**: Dedicated sections for Hair Styling, Spa Rituals, Bridal Studio, and Signature Packages.
+- **Automated Deployment**: Pre-configured with **GitHub Actions** for seamless hosting on GitHub Pages.
+
+## 🚀 Getting Started
+
+### Local Development
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd velour-app
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Deployment on GitHub Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is optimized for **GitHub Pages**. The repository includes a GitHub Action in `.github/workflows/deploy.yml` that automatically builds and deploys your site.
 
-## Learn More
+1. Go to your repository settings on GitHub.
+2. Navigate to **Pages**.
+3. Under **Build and deployment > Source**, select **GitHub Actions**.
 
-To learn more about Next.js, take a look at the following resources:
+The site will automatically deploy to `https://your-username.github.io/your-repository-name/`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS 4
+- **Animation**: Framer Motion & Lenis Scroll
+- **Icons**: Lucide & Custom SVG
+- **Deployment**: GitHub Actions
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Crafted for Perfection. Designed by VELOUR.*
